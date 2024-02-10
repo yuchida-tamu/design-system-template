@@ -3,8 +3,8 @@
     "jsx": "react",
     "baseUrl": ".",
     "paths": {
-      "@design/ui/*": ["./packages/*/src"],
-      "@design/base/dist/*": ["./packages/base/src/*"]
+      "@ui/*": ["./packages/ui/src"],
+      "@ui/dist/*": ["./packages/ui/src/*"]
     },
     /* Language and Environment */
     "target": "ES6" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,

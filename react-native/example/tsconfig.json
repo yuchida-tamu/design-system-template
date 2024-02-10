@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig",
+  "references": [
+    {
+      "path": "../packages/ui"
+    }
+  ],
+  "compilerOptions": {
+    // Avoid expo-cli auto-generating a tsconfig
+  },
+  "exclude": ["node_modules", "*.config.js", "website", "index.js"]
+}
