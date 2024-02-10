@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "example"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "eslint": "^8.56.0",
+    "lerna": "^8.1.2",
+    "prettier": "^3.2.5",
+    "react": "^18.2.0",
+    "react-native": "^0.73.4",
+    "typescript": "^5.3.3"
+  }
+}
